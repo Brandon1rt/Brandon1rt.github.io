@@ -1,0 +1,64 @@
+body{
+  background: rgb(241,140,177);
+  background: linear-gradient(90deg, rgb(194, 128, 152) 0%, rgb(222, 157, 181) 50%, rgb(221, 190, 202) 100%);
+}
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0% 15% 10% 15%;
+  
+}
+h1{
+  margin: 1% 0% 0% 15%;
+  font-weight: 800;
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+}
+.gif{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  max-width: 100%;
+  max-height: 100%;
+  filter: drop-shadow(6px 6px 6px #2c2c2c);
+  /* filter: drop-shadow(6px 6px 4px #787878); */
+
+}
+
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+button{
+  background-color: #7f7072;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 110%;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+
+}
+#yesButton {
+  position: absolute;
+  margin-right: 150px;
+}
+#noButton {
+  position: absolute;
+  margin-left: 150px;
+  transition: 0.3s;
+}
