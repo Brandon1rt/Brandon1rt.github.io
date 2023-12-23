@@ -1,10 +1,3 @@
-// function moveButton() {
-//   console.log("clicked");
-//   var button = document.getElementById("noButton");
-//   // Change the button's position
-//   button.style.top = "100px";
-//   button.style.left = "200px";
-// }
 function nextPage() {
   window.location.href = "yes.html";
 }
@@ -27,11 +20,7 @@ function moveButton() {
 
 function sendWhatsAppMessage() {
   var phoneNumber = "8129173679"; // Replace with the recipient's phone number
-  var message = "Lets go for a date"; // Replace with your message
-  var url =
-    "https://api.whatsapp.com/send?phone=" +
-    phoneNumber +
-    "&text=" +
-    encodeURIComponent(message);
+  var message = "Yes"; // Replace with your message
+  var url ="https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
   window.open(url);
 }
