@@ -4,8 +4,8 @@ function nextPage() {
 
 function moveButton() {
   var button = document.getElementById("noButton");
-  var maxX = window.innerWidth - 2 * button.offsetWidth;
-  var maxY = window.innerHeight - 2 * button.offsetWidth;
+  var maxX = window.innerWidth - 3 * button.offsetWidth;
+  var maxY = window.innerHeight - 3 * button.offsetWidth;
 
   var x = Math.random() * maxX;
   var y = Math.random() * maxY;
